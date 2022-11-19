@@ -73,3 +73,71 @@ body {
     color: black;
 }
 
+.bod {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-wrapper {
+    display: flex;
+    padding: 8px 8px;
+    min-height: 500px;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.timeline-wrapper::after {
+    left: 50%;
+    width: 1px;
+    content: '';
+    position: absolute;
+    top: calc(8px + 25px);
+    bottom: calc(8px + 25px);
+    background-color: black;
+}
+
+.timeline-container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+}
+
+.timeline-container:nth-child(odd) {
+    padding-left: 5vh;
+    align-self: flex-end;
+}
+
+.timeline-container:nth-child(even) {
+    padding-right: 5vh;
+    align-items: flex-end;
+    align-self: flex-start;
+}
+
+.timeline-container:nth-child(even) span {
+    text-align: end;
+    
+}
+
+.timeline-container::after {
+    top: -3px;
+    z-index: 1;
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.timeline-container:nth-child(odd)::after  {
+    left: -25px;
+}
+
+.timeline-container:nth-child(even)::after  {
+    right: -25px;
+}
