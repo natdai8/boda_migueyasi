@@ -1,0 +1,98 @@
+body {
+    font-family: didot;
+}
+
+.navbar {
+    padding-top: 40px;
+}
+
+.nav-bg {
+    background-color: rgb(166, 168, 150);
+}
+
+.navigate {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    min-height: 40px;
+}
+
+.main {
+    display: flex;
+    padding-top: 25px;
+    /* min-height: calc(100vh - 105px); */
+    justify-content: center;
+    color: rgb(79, 95, 73);
+}
+
+.centrar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jumbotron{
+    background-image: url("../images/yasi-migue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 789px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 160px; 
+}
+
+.group-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.group-right {
+    display: flex;
+    justify-content: right;
+}
+
+.group-wrapper {
+    justify-content: center;
+}
+
+.logo-image-wrapper {
+    top: -35%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+#logo-image {
+    height: 80px;
+    width: 80px;
+}
+
+.logo-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bar {
+    opacity: 1;
+    color: black;
+}
+
+.text-size {
+    font-size: 25px;
+}
+
+.font {
+    color: black;
+    text-decoration: none;
+}
+

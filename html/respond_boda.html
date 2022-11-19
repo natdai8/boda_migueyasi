@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="../assets/css/respond_boda.css">
+        <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <title>Please respond</title>
     </head>
@@ -33,7 +33,9 @@
                             <!-- 1. Div con tamaño fijo (50x50 y background-color xon transparencia, sin opacity)
                             2.ponerle al div, position absolute, jugar con el top y left para ponerlo en mitad del limite inferior del col
                             3. meter el icono dentro centrado vertical y horizontalmente -->
-                            <div id="logo-image"></div>
+                            <div class="logo-image-wrapper">
+                                <img id="logo-image" src="../assets/images/logo2.png" alt="main_logo">
+                            </div>
                         </div>
                         <div class="group-link col-4">
                             <li class="nav-item">
@@ -50,7 +52,7 @@
                 </div>
             </nav> 
 
-            <main class="login p-md-5 px-sm-5" >
+            <main class="login d-flex justify-content-center p-md-5 px-sm-5" >
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfIgAO7v-B5WTBeo3XaaS_jS4ZWe3oS_jDYGBehdP38t2Y7jg/viewform?embedded=true" width="640" height="1180" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>       
             </main>
         </header>

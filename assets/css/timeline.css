@@ -1,8 +1,3 @@
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .timeline-wrapper {
     display: flex;
     padding: 8px 8px;
@@ -18,7 +13,7 @@ body {
     content: '';
     position: absolute;
     top: calc(8px + 25px);
-    bottom: calc(8px + 25px);
+    bottom: calc(8px + 52px);
     background-color: black;
 }
 
