@@ -20,7 +20,7 @@ body {
 }
 
 .jumbotron{
-    background-image: url("./yasi-migue.jpg");
+    background-image: url("../images/yasi-migue.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,7 +49,7 @@ body {
 }
 
 #logo-image {
-    background-image: url("./logo2.png");
+    background-image: url("../images/logo2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

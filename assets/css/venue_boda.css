@@ -6,30 +6,31 @@ body {
     background-color: rgb(166, 168, 150);
 }
 
-.navigate {
+.main {
+    min-height: calc(100vh - 170px);
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    min-height: 40px;
+    color: rgb(79, 95, 73);
+}
+
+.centrar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jumbotron{
+    background-image: url("https://ds.static.rtbf.be/article/image/1920x1080/3/7/3/a72fcef5ab79bafe85d62e220e16f739-1647445688.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 570px;
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 165px; 
-}
-
-.login {
-    min-height: calc(100vh - 230px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.centrar {
-    display: grid;
-    justify-content: space-around;
+    min-height: 160px; 
 }
 
 .group-link {
@@ -47,7 +48,7 @@ body {
 }
 
 #logo-image {
-    background-image: url("./logo_boda.png");
+    background-image: url("../images/logo_boda.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -69,5 +70,11 @@ body {
     color: black;
 }
 
+.font-white {
+    color: white;
+}
 
-
+.font {
+    color: black;
+    text-decoration: none;
+}
