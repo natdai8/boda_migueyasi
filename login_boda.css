@@ -1,0 +1,39 @@
+.login {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.centrar-text::placeholder {
+    text-align: center;
+}
+
+.centrar {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    font-family: didot;
+    height: 100vh;
+    margin: 0;
+} 
+
+#background-image {
+    background-image: url("./yasi-migue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(40px);
+    height: 100%;
+}
+
+.font {
+    background-color: rgba(192, 181, 181, 0.992);
+}
