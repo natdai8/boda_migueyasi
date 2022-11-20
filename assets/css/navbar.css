@@ -35,6 +35,10 @@
     color: rgb(79, 95, 73);
 }
 
+.active {
+    font-weight: bold;
+}
+
 .toggle-on {
     transform: rotateZ(90deg);
 }

@@ -2,6 +2,23 @@ const isLoggedIn = localStorage.getItem("isLoggedIn");
 if (!isLoggedIn) window.location.href = "html/login_boda.html";
 
 let isToggled = false;
+// let previousPath = null;
+
+const handleRouting = () => {
+    const active = " active";
+    const linkList = document.getElementsByClassName("nav-link");
+
+    const { pathname } = window.location;
+
+    switch (pathname) {
+        case "index.html":
+            linkList[0].className += active;
+            break;
+    
+        default:
+            break;
+    }
+};
 
 const handleNavbarToggle = () => {
     const collapse = document.getElementById("nav-collapse");
@@ -27,5 +44,6 @@ const handleNavbarToggle = () => {
 window.addEventListener("load", () => {
     setTimeout(() => {
         document.getElementById("toggle-collapse-btn").addEventListener("click", handleNavbarToggle);
+        handleRouting();
     }, 500);
 });
