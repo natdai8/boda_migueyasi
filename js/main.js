@@ -25,5 +25,7 @@ const handleNavbarToggle = () => {
 };
 
 window.addEventListener("load", () => {
-    document.getElementById("toggle-collapse-btn").addEventListener("click", handleNavbarToggle);
+    setTimeout(() => {
+        document.getElementById("toggle-collapse-btn").addEventListener("click", handleNavbarToggle);
+    }, 500);
 });
