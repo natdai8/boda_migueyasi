@@ -35,6 +35,10 @@
     color: rgb(79, 95, 73);
 }
 
+.navbar-traslucid #navbar-wrapper {
+    background-color: rgba(255, 255, 255, 0.404) !important;
+}
+
 .toggle-on {
     transform: rotateZ(90deg);
 }
