@@ -1,15 +1,4 @@
-.nav-bg {
-    background-color: rgb(166, 168, 150);
-}
-
-.navigate {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    min-height: 40px;
-}
-
-.main {
+.main-alt {
     min-height: calc(100vh - 160px - 96px);
     align-items: center;
 }

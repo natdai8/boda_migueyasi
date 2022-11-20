@@ -1,11 +1,9 @@
-// let user_name = "";
-let passwd = "";
 let users = [];
 const url = 'https://asdfdsad.herokuapp.com/usuarios';
 
 function create_alert(element, s){
     if (element) return;
-    al = document.createElement('div'); 
+    const al = document.createElement('div'); 
     al.id = "form-alert"
     al.innerHTML = s;
     al.className = "alert alert-danger";
@@ -17,37 +15,36 @@ function create_alert(element, s){
 $(window).on("load",  async () => {
 
     try {
-        users = (await axios.get(`${url}`)).data;          
+        users = (await axios.get(url)).data;          
     } catch (error) {
         console.log(error)
     }
 
     $('#login').on("click", () => {
 
-        var element = document.getElementById('form-alert');
-        // var u = document.getElementById('username').value;
-        var p = document.getElementById('pwd').value;
-        // u === "" || u === null ||
+        const element = document.getElementById('form-alert');
+        const p = document.getElementById('pwd').value;
+
         if (p === "" || p === null) {
             const s = "campo(s) incompletos";
             if (element) document.getElementById('wrapper').removeChild(element);
-           // create_alert(null, s);
+            create_alert(null, s);
             return;
         }
         // => (usuario.username === u) &&
-        let found = users.find( usuario => (usuario.password === p));
-        if (found)  {
-            localStorage.setItem("user_actual", found.id);
-            window.location.href = "home_boda.html";
-            return;
-        }
+        const found = users.find( usuario => (usuario.password === p));
+
         if (!found){
             const s = "datos incorrectos";
             if (element) document.getElementById('wrapper').removeChild(element);
-          //  create_alert(null, s);
+            create_alert(null, s);
             return;
         }
+
+        localStorage.setItem("isLoggedIn", true);
+        window.location.href = "index.html";
         
+        return;
     });
 
 })
