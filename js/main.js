@@ -6,8 +6,6 @@ let isToggled = false;
 
 const handleRouting = () => {
     const active = " active";
-    const fontWhite = " font-white-active";
-    const blanco = " font-white";
     const linkList = document.getElementsByClassName("nav-link");
 
     const { pathname } = window.location;
@@ -17,13 +15,7 @@ const handleRouting = () => {
             linkList[0].className += active;
             break;
         case "/html/venue_boda.html":
-            // linkList[1].className += active;
-            linkList[1].className += fontWhite;
-            // linkList[0].className += blanco;
-            // linkList[2].className += blanco;
-            // linkList[3].className += blanco;
-            // linkList[4].className += blanco;
-            // linkList[5].className += blanco;
+            linkList[1].className += active;
             break;
         case "/html/how_boda.html":
             linkList[2].className += active;
