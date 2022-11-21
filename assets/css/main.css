@@ -62,9 +62,9 @@ body {
     text-decoration: none;
 }
 
-.font-white-venue {
+/* .font-white-venue {
     color: white;
-}
+} */
 
 @media (max-width: 992px) {
     .jumbotron {
