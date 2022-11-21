@@ -39,14 +39,14 @@
     font-weight: bold;
 }
 
-.font-white {
-    color: white;
-}
+/* .font-white-venue {
+    color: white; !important
+} */
 
-.font-white-active {
+/* .font-white-active {
     font-weight: bold;
     color: white;
-}
+} */
 
 .toggle-on {
     transform: rotateZ(90deg);
