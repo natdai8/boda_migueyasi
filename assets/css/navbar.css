@@ -39,9 +39,9 @@
     font-weight: bold;
 }
 
-/* .font-white-venue {
-    color: white; !important
-} */
+.font-white-venue {
+    color: white !important;
+}
 
 /* .font-white-active {
     font-weight: bold;
