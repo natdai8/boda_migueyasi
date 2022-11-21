@@ -40,9 +40,10 @@
 }
 
 
-/* .font-white {
+.font-white-active {
+    font-weight: bold;
     color: white;
-} */
+}
 
 .toggle-on {
     transform: rotateZ(90deg);
@@ -139,7 +140,7 @@
         display: none;
     }
 
-    .navbar:hover {
+    /* .navbar:hover {
         background-color: rgb(255, 255, 255);
-    }
+    } */
 }
