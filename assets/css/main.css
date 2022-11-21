@@ -59,6 +59,10 @@ body {
     text-decoration: none;
 }
 
+.font-white {
+    color: white;
+}
+
 @media (max-width: 992px) {
     .jumbotron {
         min-height: 395px;
@@ -69,3 +73,4 @@ body {
         padding-top: 65px;
     }
 }
+
