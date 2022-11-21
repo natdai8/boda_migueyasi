@@ -28,7 +28,7 @@ $(window).on("load",  async () => {
         if (p === "" || p === null) {
             const s = "campo(s) incompletos";
             if (element) document.getElementById('wrapper').removeChild(element);
-            create_alert(null, s);
+            //create_alert(null, s);
             return;
         }
         // => (usuario.username === u) &&
@@ -37,7 +37,7 @@ $(window).on("load",  async () => {
         if (!found){
             const s = "datos incorrectos";
             if (element) document.getElementById('wrapper').removeChild(element);
-            create_alert(null, s);
+           // create_alert(null, s);
             return;
         }
 
