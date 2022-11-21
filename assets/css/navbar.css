@@ -39,6 +39,11 @@
     font-weight: bold;
 }
 
+
+.font-white {
+    color: white;
+}
+
 .toggle-on {
     transform: rotateZ(90deg);
 }
