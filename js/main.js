@@ -14,7 +14,21 @@ const handleRouting = () => {
         case "index.html":
             linkList[0].className += active;
             break;
-    
+        case "html/venue_boda.html":
+            linkList[1].className += active;
+            break;
+        case "html/how_boda.html":
+            linkList[2].className += active;
+            break;
+        case "html/respond_boda.html":
+            linkList[3].className += active;
+            break;
+        case "html/brussels_boda.html":
+            linkList[4].className += active;
+            break;
+        case "html/gallery_boda.html":
+            linkList[5].className += active;
+            break;
         default:
             break;
     }
