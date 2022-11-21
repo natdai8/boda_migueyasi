@@ -14,10 +14,10 @@ const handleRouting = () => {
         case "index.html":
             linkList[0].className += active;
             break;
-        case "html/venue_boda.html":
+        case "/html/venue_boda.html":
             linkList[1].className += active;
             break;
-        case "html/how_boda.html":
+        case "/html/how_boda.html":
             linkList[2].className += active;
             break;
         case "html/respond_boda.html":
