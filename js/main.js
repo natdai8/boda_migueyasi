@@ -19,11 +19,11 @@ const handleRouting = () => {
         case "/html/venue_boda.html":
             // linkList[1].className += active;
             linkList[1].className += fontWhite;
-            linkList[0].className += blanco;
-            linkList[2].className += blanco;
-            linkList[3].className += blanco;
-            linkList[4].className += blanco;
-            linkList[5].className += blanco;
+            // linkList[0].className += blanco;
+            // linkList[2].className += blanco;
+            // linkList[3].className += blanco;
+            // linkList[4].className += blanco;
+            // linkList[5].className += blanco;
             break;
         case "/html/how_boda.html":
             linkList[2].className += active;
