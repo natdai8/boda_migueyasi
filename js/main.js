@@ -60,4 +60,7 @@ window.addEventListener("load", () => {
         document.getElementById("toggle-collapse-btn").addEventListener("click", handleNavbarToggle);
         handleRouting();
     }, 500);
+handleNavbarToggle);
+        handleRouting();
+    }, 500);
 });
