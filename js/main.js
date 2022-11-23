@@ -61,4 +61,4 @@ window.addEventListener("load", () => {
         handleRouting();
     }, 500);
 
-         });
+});
