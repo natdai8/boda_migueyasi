@@ -14,11 +14,11 @@ function create_alert(element, s){
 
 $(window).on("load",  async () => {
 
-    try {
-        users = (await axios.get(url)).data;          
-    } catch (error) {
-        console.log(error)
-    }
+    // try {
+    //     users = (await axios.get(url)).data;          
+    // } catch (error) {
+    //     console.log(error)
+    // }
 
     $('#login').on("click", () => {
 
@@ -32,18 +32,18 @@ $(window).on("load",  async () => {
             return;
         }
         // => (usuario.username === u) &&
-        const found = users.find( usuario => (usuario.password === p));
+        // const found = users.find( usuario => (usuario.password === p));
 
-        if (!found){
-            const s = "datos incorrectos";
-            if (element) document.getElementById('wrapper').removeChild(element);
-           // create_alert(null, s);
-            return;
+        // if (!found){
+        //     const s = "datos incorrectos";
+        //     if (element) document.getElementById('wrapper').removeChild(element);
+        //    // create_alert(null, s);
+        //     return;
+        // }
+        if (p === "Bignight2023") {
+            localStorage.setItem("isLoggedIn", true);
+            window.location.href = "index.html";
         }
-
-        localStorage.setItem("isLoggedIn", true);
-        window.location.href = "index.html";
-        
         return;
     });
 
