@@ -39,7 +39,7 @@
     font-weight: bold;
 }
 
-.font-white-venue {
+.font-white-venue .nav-link {
     color: white !important;
 }
 
@@ -141,6 +141,10 @@
 
     .collapse-action {
         display: none;
+    }
+
+    .font-white-venue .nav-link {
+        color: black !important;
     }
 
     /* .navbar:hover {
