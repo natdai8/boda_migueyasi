@@ -39,7 +39,7 @@
     font-weight: bold;
 }
 
-.font-white-venue .nav-link{
+.font-white-venue .nav-link {
     color: white !important;
 }
 
@@ -98,6 +98,10 @@
 
     #desktop-logo {
         display: none;
+    }
+
+    .font-white-venue .nav-link {
+        color: black !important;
     }
 
     .show-mobile-logo #mobile-logo {
